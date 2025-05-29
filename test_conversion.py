@@ -19,4 +19,3 @@ def test_out_of_range():
 def test_non_integer():
     with pytest.raises(TypeError):
         convert_to_binary(10.5)
-        
